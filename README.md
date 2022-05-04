@@ -32,7 +32,7 @@ Python, Django, Django Rest Framework, JWT, Swagger
 *sudo docker login -u <имя пользователя>*
 
 #### 2. Скачайте образ с DockerHub:
-*sudo docker pull bazilit/infra_sp2:v1.0.0*
+*sudo docker pull bazilit/infra_sp2:v1.0.3*
 
 #### 3. Проверьте наличие скаченного образа в системе:
 *sudo docker images ls -a*
@@ -54,5 +54,9 @@ Python, Django, Django Rest Framework, JWT, Swagger
 
 #### 9. Проверяем доступность сервиса. Зайдите в админку под суперпользователем и создайте жанры, категорию, отзыв о произведение:
 *http://localhost/admin*
+
+---
+### Автор: *Шарковский А.*
+*https://github.com/Bazilit*
 
 ---
